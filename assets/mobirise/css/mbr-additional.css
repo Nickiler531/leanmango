@@ -1446,6 +1446,11 @@ body {
     padding-right: 5rem;
   }
 }
+.cid-rx5q5ATUZL .mbr-text,
+.cid-rx5q5ATUZL .mbr-section-btn {
+  color: #ffffff;
+  text-align: right;
+}
 .cid-rx5ez5KIjJ .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -2313,7 +2318,7 @@ body {
 }
 .cid-rx5eK0chC6 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 75px;
   background-color: #ffffff;
 }
 .cid-rx5eK0chC6 .mbr-section-subtitle {
