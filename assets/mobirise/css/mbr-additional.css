@@ -1413,6 +1413,39 @@ body {
   background: #ff3366 !important;
   box-shadow: none !important;
 }
+.cid-rx9K4OFXI9 {
+  padding-top: 75px;
+  padding-bottom: 0px;
+  background-color: #767676;
+}
+.cid-rx9K4OFXI9 P {
+  color: #767676;
+}
+.cid-rx5q5ATUZL {
+  background-image: url("../../../assets/images/artisan-arts-and-crafts-circuit-board-2517330-2000x1328.jpg");
+}
+.cid-rx5q5ATUZL .form-control,
+.cid-rx5q5ATUZL .form-control:focus {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.cid-rx5q5ATUZL .form-container {
+  transition: all .2s;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+}
+.cid-rx5q5ATUZL textarea.form-control {
+  min-height: 188px;
+}
+.cid-rx5q5ATUZL .input-group-btn {
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+@media (min-width: 768px) {
+  .cid-rx5q5ATUZL .content-container {
+    padding-right: 5rem;
+  }
+}
 .cid-rx5ez5KIjJ .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -1819,31 +1852,6 @@ body {
 .cid-rx5ez5KIjJ .nav-link:hover,
 .cid-rx5ez5KIjJ .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-rx5q5ATUZL {
-  background-image: url("../../../assets/images/artisan-arts-and-crafts-circuit-board-2517330-2000x1328.jpg");
-}
-.cid-rx5q5ATUZL .form-control,
-.cid-rx5q5ATUZL .form-control:focus {
-  background: #ffffff;
-  border: 1px solid #ffffff;
-}
-.cid-rx5q5ATUZL .form-container {
-  transition: all .2s;
-  border: 1px solid #ffffff;
-  padding: 1rem;
-}
-.cid-rx5q5ATUZL textarea.form-control {
-  min-height: 188px;
-}
-.cid-rx5q5ATUZL .input-group-btn {
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-@media (min-width: 768px) {
-  .cid-rx5q5ATUZL .content-container {
-    padding-right: 5rem;
-  }
 }
 .cid-rx5CIkz1Dd {
   padding-top: 60px;
