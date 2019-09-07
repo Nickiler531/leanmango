@@ -39,8 +39,8 @@
     "siteFonts": [],
     "favicon": "@PROJECT_PATH@/assets/images/mango-logo-x-40-128x128.png",
     "noImageResize": "",
-    "uniqCompNum": 8,
-    "versionPublish": "4.10.6",
+    "uniqCompNum": 14,
+    "versionPublish": "4.8.10",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
@@ -53,8 +53,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "LeanMango - Platform",
+        "meta_descr": "IoT, hardware, software,  makers",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -139,7 +139,7 @@
             }
           },
           "_name": "header15",
-          "_customHTML": "<section class=\"header15\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Input Background\" name=\"inputBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Form Background\" name=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n        <input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/artisan-arts-and-crafts-circuit-board-2517330-2000x1328.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Are you looking for a new way to make IoT Products?</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    LeanMango is an online platform for startup, companies or hobbyists who want to make a complete IoT prototype, from electronics, software, and enclosure.<br><br><b><i>Subscribe to get early access and have a chance of winning a 20% off on your first order!</i></b></p>\n            </div>\n            <div class=\"col-lg-4 col-md-5\">\n                <div class=\"form-container\">\n                    <div mbr-form class=\"media-container-column\">\n                        <!---Formbuilder Form--->\n                        <form action=\"nicolas.velasquez531@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                            <div class=\"row\">\n                                <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for subscribing. We will be in contact with you soon!</div>\n                                <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                </div>\n                            </div>\n                            <div class=\"dragArea row\">\n                                <div class=\"col-md-12 form-group \" data-for=\"name\">\n                                    <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control px-3\">\n                                </div>\n                                <div class=\"col-md-12 form-group \" data-for=\"email\">\n                                    <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control px-3\">\n                                </div>\n                                <div data-for=\"phone\" class=\"col-md-12 form-group \" hidden=\"hidden\">\n                                    <input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" hidden=\"hidden\">\n                                </div>\n                                <div data-for=\"message\" class=\"col-md-12 form-group \" hidden=\"hidden\">\n                                    <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" hidden=\"hidden\"></textarea>\n                                </div>\n                                <div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-form btn-secondary\" data-app-placeholder=\"Type Text\">Subscribe</a></div>\n                            </div>\n                        </form><!---Formbuilder Form--->\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header15\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"color\" title=\"Input Background\" name=\"inputBg\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Form Background\" name=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 1\" name=\"formColor1\" value=\"#ff7f9f\" condition=\"bgForm\">\n        <input type=\"color\" title=\"Form Color 2\" name=\"formColor2\" value=\"#55b4d4\" condition=\"bgForm\">\n        <input type=\"checkbox\" title=\"Form On Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/artisan-arts-and-crafts-circuit-board-2517330-2000x1328.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-right\">\n        <div class=\"row\">\n            <div class=\"mbr-white col-lg-8 col-md-7 content-container\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Are you looking for a new way to make IoT Products?</h1>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    LeanMango is an online platform for startup, companies or hobbyists who want to make a complete IoT prototype, from electronics, software, and enclosure.<br><br><b><i>Subscribe to get early access and have a chance of winning a 20% off on your first order!</i></b></p>\n            </div>\n            <div class=\"col-lg-4 col-md-5\">\n                <div class=\"form-container\">\n                    <div mbr-form class=\"media-container-column\">\n                        <!---Formbuilder Form--->\n                        <form action=\"nicolas.velasquez531@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                            <div class=\"row\">\n                                <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for subscribing. We will be in contact with you soon!</div>\n                                <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                </div>\n                            </div>\n                            <div class=\"dragArea row\">\n                                <div class=\"col-md-12 form-group \" data-for=\"name\">\n                                    <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control px-3\">\n                                </div>\n                                <div class=\"col-md-12 form-group \" data-for=\"email\">\n                                    <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control px-3\">\n                                </div>\n                                <div data-for=\"phone\" class=\"col-md-12 form-group \" hidden=\"hidden\">\n                                    <input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" hidden=\"hidden\">\n                                </div>\n                                <div data-for=\"message\" class=\"col-md-12 form-group \" hidden=\"hidden\">\n                                    <textarea name=\"message\" placeholder=\"Message\" data-form-field=\"Message\" mbr-theme-style=\"display-7\" class=\"form-control px-3\" hidden=\"hidden\"></textarea>\n                                </div>\n                                <div class=\"col-md-12 input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-form btn-secondary\" data-app-placeholder=\"Type Text\">Contact me</a></div>\n                            </div>\n                        </form><!---Formbuilder Form--->\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "rx5q5ATUZL",
           "_anchor": "header15-b",
           "_protectedParams": [],
@@ -563,7 +563,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://leanmango.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-proposal-white-298x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        How it works?</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#step3-y\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Projects</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#testimonials-slider1-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Testimonies</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://leanmango.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-proposal-white-298x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        How it works?</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#step3-y\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Projects</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#testimonials-slider1-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Testimonies</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Get Your Quote</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rx5ez5KIjJ",
           "_anchor": "menu1-2",
           "_protectedParams": [],
@@ -1326,7 +1326,7 @@
             }
           },
           "_name": "form3",
-          "_customHTML": "<section class=\"mbr-section form3\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\">Subscribe to get early access and have a chance of winning a 20% off in your first order!</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n            </div>\n        </div>\n\n        <div class=\"row py-2 justify-content-center\">\n            <div mbr-form class=\"col-12 col-lg-6  col-md-8 \">\n                <!---Formbuilder Form--->\n                <form action=\"nicolas.velasquez531@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"form-group col\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div class=\"col-auto input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">SUBSCRIBE</a></div>\n                    </div>\n                </form><!---Formbuilder Form--->\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section form3\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\">Subscribe to get early access and have a chance of winning a 20% off in your first order!</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center pb-5 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n            </div>\n        </div>\n\n        <div class=\"row py-2 justify-content-center\">\n            <div mbr-form class=\"col-12 col-lg-6  col-md-8 \">\n                <!---Formbuilder Form--->\n                <form action=\"nicolas.velasquez531@gmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"form-group col\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                        </div>\n                        <div class=\"col-auto input-group-btn \" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">Contact me</a></div>\n                    </div>\n                </form><!---Formbuilder Form--->\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rx5eK0chC6",
           "_anchor": "form3-5",
           "_protectedParams": [],
@@ -1361,6 +1361,479 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "privacy",
+        "order": 2
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "@media (min-width: 1024px)": {
+                "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                  "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 1023px)": {
+              ".navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "overflow": "hidden",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://leanmango.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-proposal-white-298x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        How it works?</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#step3-y\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Projects</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#testimonials-slider1-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Testimonies</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Get Your Quote</a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rx5ez5KIjJ",
+          "_anchor": "menu1-8",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2019 LeanMango - All Rights Reserved - <a href=\"privacy.html\">Privacy Policy</a><br>\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rx5eTtLTPE",
+          "_anchor": "footer6-9",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">This policy explains what information we collect when you use LeanMango’s sites, services, mobile applications, products, and content (“Services”). It also has information about how we store, use, transfer, and delete that information. Our aim is not just to comply with privacy law. It’s to earn your trust.\n<p></p><div>\n</div><div>Information We Collect &amp; How We Use It\n</div><div>Medium doesn’t make money from ads. So we don’t collect data in order to advertise to you. The tracking we do at Medium is to make our product work as well as possible. This includes basic product functions like allowing our metered paywall to work and key features like personalizing what posts you see based on what we think you’ll like. So, to give you the best possible experience in using Medium, we collect information from your interactions with our network. Some of this information, you actively tell us (such as your email address, which we use to track your account or communicate with you). Other information, we collect based on actions you take while using Medium, such as what pages you view (including how much of a given page and for how long) and your use of product features (like highlights, follows, and applause). This information includes records of those interactions, your Internet Protocol address, information about your device (such as device or browser type), and referral information (how you got to a particular page).\n</div><div>\n</div><div>We use this information to:\n</div><div>\n</div><div>&nbsp; &nbsp; provide, test, improve, promote and personalize the Services\n</div><div>&nbsp; &nbsp; fight spam and other forms of abuse\n</div><div>&nbsp; &nbsp; generate aggregate, non-identifying information about how people use the Services\n</div><div>\n</div><div>When you create your Medium account, and authenticate with a third-party service (like Twitter, Facebook, Apple or Google) we may collect, store, and periodically update information associated with that third-party account, such as your lists of friends or followers. We will never publish something through one of your third-party accounts without your express permission.\n</div><div>\n</div><div>Information Disclosure\n</div><div>Medium won’t transfer information about you to third parties for the purpose of providing or facilitating third-party advertising to you. We won’t sell information about you to a third-party.\n</div><div>\n</div><div>We may transfer your account information with third parties in some circumstances, including: (1) with your consent; (2) to a service provider or partner who meets our data protection standards; (3) with academic or non-profit researchers, with aggregation, anonymization, or pseudonymization; (4) when we have a good faith belief it is required by law, such as pursuant to a subpoena or other legal process; (5) when we have a good faith belief that doing so will help prevent imminent harm to someone.\n</div><div>\n</div><div>If we are going to share your information in response to legal process, we’ll give you notice so you can challenge it (for example by seeking court intervention), unless we’re prohibited by law or believe doing so may endanger others or cause illegal conduct. We will object to legal requests for information about users of our services that we believe are improper.\n</div><div>\n</div><div>Public Data\n</div><div>Search engines may index your Medium user profile page, public interactions (such as claps or highlights), and post pages, such that people may find these pages when searching against your name on services like Google, DuckDuckGo, or Bing. Users may also share links to your content on social media platforms such as Facebook or Twitter.\n</div><div>\n</div><div>Data Storage\n</div><div>Medium uses third-party vendors and hosting partners, such as Amazon, for hardware, software, networking, storage, and related technology we need to run Medium. We maintain two types of logs: server logs and event logs. By using the Services, you authorize Medium to transfer, store, and use your information in the United States and any other country where we operate.\n</div><div>\n</div><div>Third-Party Embeds\n</div><div>Some of the content that you see displayed on Medium is not hosted by Medium. These “embeds” are hosted by a third-party and embedded in a Medium page, so that it appears to be part of that page. For example: YouTube or Vimeo videos, Imgur or Giphy gifs, SoundCloud audio files, Twitter tweets, GitHub code snippets, or Scribd documents that appear within a Medium post. These files send data to the hosted site just as if you were visiting that site directly (for example, when you load a Medium post page with a YouTube video embedded in it, that video appears because of a pointer to files hosted by YouTube, and in turn YouTube receives data about your activity, such as your IP address and how much of the video you watch).\n</div><div>\n</div><div>Medium doesn’t control what data third parties collect in cases like this, or what they ultimately do with it. So, third-party embeds on Medium are not covered by this Privacy Policy. They are covered by the privacy policy of the third-party service (so, when you watch a YouTube video embedded in a Medium post, the use of data about your interactions with the video would be covered by YouTube’s privacy policy).\n</div><div>\n</div><div>Some embeds may ask you for personal information, such as submitting your email address, through a form linked to from a Medium post. We do our best to keep bad actors off of Medium. However, if you choose to submit your information to a third party this way, we don’t know what they may do with it. As explained above, their actions are not covered by this Privacy Policy. So, please be careful when you see embedded forms on Medium asking for your email address or any other personal information. Make sure you understand who you are submitting your information to and what they say they plan to do with it. We suggest that you do not submit your email address or other personal information to any third-party through an embedded form.\n</div><div>\n</div><div>When posting on Medium, you may not embed a form that allows submission of personal information by users. You must link offsite to a page that allows such submissions by users, and that page’s appearance must be distinct enough from Medium to ensure it does not cause confusion among users over to whom they are submitting personal information. Failure to do so may lead Medium to disable the post or take other action to limit or disable your account.\n</div><div>\n</div><div>Tracking &amp; Cookies\n</div><div>We use browser cookies and similar technologies to recognize you when you return to our Services. We use them in various ways, for example to log you in, remember your preferences (such as default language), evaluate email effectiveness, allow our paywall and meter to function, and personalize content and other services. Without cookies, our metered paywall would not work, so they are necessary to Medium’s basic functionality.\n</div><div>\n</div><div>Medium doesn’t track you across the Internet. We track only your interactions within the Medium network (which encompasses Medium.com and custom domains hosted by Medium).\n</div><div>\n</div><div>Some third-party services that we use to provide the Service, such as Google Analytics, may place their own cookies in your browser. This Privacy Policy covers use of cookies by Medium only and not the use of cookies by third parties.\n</div><div>\n</div><div>Modifying or Deleting Your Personal Information\n</div><div>If you have a Medium account, you can access, modify or export your personal information, or delete your account here.\n</div><div>\n</div><div>To protect information from accidental or malicious destruction, we may maintain residual copies for a brief time period (generally several weeks). But, if you delete your account, your information and content will be unrecoverable after that time. Medium may preserve and maintain copies of your information beyond this time period when required to do so by law.\n</div><div>\n</div><div>Data Security\n</div><div>We use encryption (HTTPS/TLS) to protect data transmitted to and from our site. However, no data transmission over the Internet is 100% secure, so we can’t guarantee security. You use the Service at your own risk, and you’re responsible for taking reasonable measures to secure your account.\n</div><div>\n</div><div>Business Transfers\n</div><div>If we’re involved in a merger, acquisition, bankruptcy, reorganization or sale of assets such that your information would be transferred or become subject to a different privacy policy, we’ll notify you in advance so you can opt out of any such new policy by deleting your account before transfer.\n</div><div>\n</div><div>Email from Medium\n</div><div>Sometimes we’ll send you emails about your account, service changes or new policies. You can’t opt out of this type of “transactional” email (unless you delete your account). But, you can opt out of non-administrative emails such as digests, newsletters, and activity notifications through your account’s Settings page.\n</div><div>\n</div><div>When you interact with an email sent from Medium (such as opening an email or clicking on a particular link in an email), we may receive information about that interaction.\n</div><div>\n</div><div>We won’t email you to ask for your password or other account information. If you receive such an email, please forward it to us at legal@medium.com so we can investigate.\n</div><div>\n</div><div>Changes to this Policy\n</div><div>Medium may periodically update this Policy. We’ll notify you about significant changes to it. The most current version of the policy will always be here and we will archive former versions of the policy here.\n</div><div>\n</div><div>Questions\n</div><div>We welcome feedback about this policy at legal@medium.com.\n</div><div>Data Protection Statement for European Union Users\n</div><div>\n</div><div>Description of Processing Activity\n</div><div>Medium collects and stores personal information about its users to customize their reading experience and enable personalized distribution of content. It shares minimal data with its service providers.\n</div><div>\n</div><div>Purposes of Processing\n</div><div>\n</div><div>&nbsp; &nbsp; Provide, test, promote, and improve the Services\n</div><div>&nbsp; &nbsp; Gather usage statistics of services\n</div><div>&nbsp; &nbsp; Provide customized reading experience\n</div><div>&nbsp; &nbsp; Publish and distribute user-generated content\n</div><div>&nbsp; &nbsp; Provide access to paid content\n</div><div>&nbsp; &nbsp; Pay authors in Partnership Program for certain content\n</div><div>&nbsp; &nbsp; Fight spam, fraud, and other abuse of services\n</div><div>\n</div><div>Legal Bases\n</div><div>In order to provide the Services, Medium collects and stores personal data about its users to fulfill its contractual obligations to users as described in our Terms of Service and to Members as described in our Membership Terms of Service.\n</div><div>\n</div><div>Medium also pursues its legitimate interests by collecting minimal data of logged out users to provide the Services, as outlined above, as well as to ensure that new users trying out the free member preview do not exceed their maximum limit of free articles per month before a paid subscription is required to read further. These legitimate interests are not outweighed by (nor do they violate) our users’ privacy interests because we collect minimal user data for these purposes and we are fully transparent about these activities.\n</div><div>\n</div><div>Where Medium collects and stores personal data about non-users mentioned in user-generated content, it does so under performance of contract obligations to users who use the Services to publish content on web sites hosted by Medium. In such cases, users authoring such user-generated content containing personal data of third parties are responsible for that content. Medium will consider related complaints in compliance with the General Data Protection Regulation’s rights of the data subject, as well as rights of expression and access to information.\n</div><div>\n</div><div>Public Nature of Personal Data\n</div><div>Logged-in users may choose to interact publicly with the Services in the form of clapping for a post, highlighting parts of a post, following other user accounts, sharing links on connected social media accounts, or writing original posts. Where such personal data may reveal special category protected data, it is processed on the basis that it is manifestly made public by the user. Additional information on potential consequences of such processing can be found below. If you do not agree to this public usage, do not create an account or use these features of the Services.\n</div><div>\n</div><div>Search engines may index your Medium user profile page, public interactions (such as claps or highlights), and post pages. Users may also share links to your content on social media platforms such as Facebook or Twitter.\n</div><div>\n</div><div>Categories of Personal Data Collected\n</div><div>Logged out users\n</div><div>\n</div><div>&nbsp; &nbsp; Reading history\n</div><div>&nbsp; &nbsp; IP address\n</div><div>&nbsp; &nbsp; Browser information\n</div><div>&nbsp; &nbsp; DNT status\n</div><div>\n</div><div>Logged in users:\n</div><div>\n</div><div>&nbsp; &nbsp; Username\n</div><div>&nbsp; &nbsp; Display name\n</div><div>&nbsp; &nbsp; Bio\n</div><div>&nbsp; &nbsp; Avatar image\n</div><div>&nbsp; &nbsp; Email address (non-public)\n</div><div>&nbsp; &nbsp; Session activity (security)\n</div><div>&nbsp; &nbsp; Linked social media accounts (optional)\n</div><div>&nbsp; &nbsp; IP address\n</div><div>&nbsp; &nbsp; Browser information\n</div><div>&nbsp; &nbsp; Reading history (on Medium network only)\n</div><div>&nbsp; &nbsp; Network interactions (recommends, follows, etc.)\n</div><div>&nbsp; &nbsp; Posts, responses, or series published by user\n</div><div>\n</div><div>Members:\n</div><div>\n</div><div>&nbsp; &nbsp; Billing information and history\n</div><div>\n</div><div>Partner authors:\n</div><div>\n</div><div>&nbsp; &nbsp; Bank account for payments\n</div><div>&nbsp; &nbsp; Business information, if applicable\n</div><div>\n</div><div>Categories of Recipients\n</div><div>Medium shares minimal personal data with third-party processors in order to provide the Services. These processors offer at least the same level of data protection as that set out in this statement. This includes the following categories of recipients:\n</div><div>\n</div><div>&nbsp; &nbsp; Hosting, Storage, &amp; Other Infrastructure\n</div><div>&nbsp; &nbsp; Security\n</div><div>&nbsp; &nbsp; Analytics\n</div><div>&nbsp; &nbsp; Communication &amp; Support\n</div><div>&nbsp; &nbsp; Payment Processors\n</div><div>\n</div><div>Payment Processors\n</div><div>Medium provides Services in conjunction with several payment processors, including: Stripe, PayPal, Google Play, and Apple Pay, through which users may pay for Medium memberships or receive payment based on participation in our Partner program. Those companies acting as payment processors may collect and store personal data related to your billing information and history in order to provide their services, and may collect and store personal data and business data to prevent fraud and other abuse.\n</div><div>\n</div><div>When you delete your Medium account, Medium deletes your personal data as explained in this policy. However, to delete your payment or billing information, you will need to do so with your payment provider, as Medium only has minimal secure access to those records as needed to provide the Services.\n</div><div>\n</div><div>Use of Algorithms to Personalize User Experience\n</div><div>Medium collects and stores personal data about its users to customize their reading experience by displaying content tailored to the preferences and interests indicated by the users (including through their reading history and network interactions). This does not constitute automated decision-making as that phrase is used in the GDPR because it does not produce any legal effects or similarly significant effects for users. Medium also moderates content for the purposes of fighting and preventing spam, fraud, and other forms of abuse, and may rely on algorithms as part of doing so.\n</div><div>\n</div><div>Potential Consequences of Processing\n</div><div>By creating and using an account on Medium, users may make certain personal data about themselves public and accessible to others on their profile and through network interactions. This may in some cases constitute special category protected data which is considered manifestly made public by the user.\n</div><div>\n</div><div>Due to the public nature of information posted to Medium, it may be possible for third parties to derive identifying personal data from posts, whether by reading, inference, supplemental research, or automated extraction and analysis.\n</div><div>\n</div><div>Users are free to use their real name and information, or a pseudonym of their choosing, for their account. Users may also choose to use the service without posting data or engaging in network interactions. However, if you do not agree with and accept the risks of such usage, you may not use the Services.\n</div><div>\n</div><div>Cross-border Transfers\n</div><div>Medium is hosted in the United States. By using the Services, you authorize Medium to transfer, store, and use your information in the United States and any other country where we operate. Where your data is disclosed to our processors, it is subject by contract to at least the same level of data protection as that set out in this statement.\n</div><div>\n</div><div>Retention\n</div><div>Medium retains personal data associated with your account for the lifetime of your account. If you would like to delete your personal information, you can delete your account at any time. Deleted account profile pages will yield an error 404 “file not found” page, immediately upon initiating deletion, and will become unrecoverable in our system after a period of fourteen days. It may take several additional days for your personal data to be de-indexed from search engines, depending on those search engines’ practices, over which Medium may have limited or no control.\n</div><div>\n</div><div>To delete your payment or billing information, you will need to do so with your payment provider, as Medium only has minimal secure access to those records as needed to provide the Services.\n</div><div>\n</div><div>Rights of Data Subjects\n</div><div>\n</div><div>&nbsp; &nbsp; If you sign up for a Medium account, you may at any time request an export of your personal information from the Settings page.\n</div><div>&nbsp; &nbsp; You may correct information associated with your account from the Settings page, and the Customize Your Interests page to update your interests.\n</div><div>&nbsp; &nbsp; You may withdraw consent by deleting your account at any time through the Settings page, which will erase your personal information completely within 14 days (except to the extent Medium is prevented by law from deleting your information).\n</div><div>&nbsp; &nbsp; You may object at any time to the use of your personal data by contacting privacy@medium.com. If your complaint relates to alleged misuse of your personal data by a third party, it may result in suspension of that post or account in keeping with relevant law, public interest, our contractual obligations, and the rights of expression and access to information of others.\n</div><div>&nbsp; &nbsp; Under EU law you have the right to lodge a complaint regarding the processing of your personal data by Medium with the dedicated Supervisory Authority of your EU member state.\n</div><div>\n</div><div>Subject Access Requests\n</div><div>For security and account ownership verification reasons, we process Subject Access Requests and account deletion requests from the account holder only. We are unable to process requests made by third-party services.</div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rAWw4PgOjr",
+          "_anchor": "content1-a",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Web Site Creator Description",
+        "title": "quote",
         "order": 1
       },
       "components": [
@@ -1780,9 +2253,9 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://leanmango.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-proposal-white-298x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        How it works?</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#step3-y\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Projects</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#testimonials-slider1-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Testimonies</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-save mbr-iconfont mbr-iconfont-btn \" data-app-selector=\".mbr-iconfont-btn\"></span>\n                    Try It Now!\n                </a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"http://leanmango.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-proposal-white-298x113.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"#top\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Home</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#content4-k\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        How it works?</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#step3-y\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        \n                        Projects</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"index.html#testimonials-slider1-p\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        Testimonies</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"page2.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Get Your Quote</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "rx5ez5KIjJ",
-          "_anchor": "menu1-8",
+          "_anchor": "menu1-b",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
@@ -1803,26 +2276,39 @@
           "_name": "footer6",
           "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2019 LeanMango - All Rights Reserved - <a href=\"privacy.html\">Privacy Policy</a><br>\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rx5eTtLTPE",
-          "_anchor": "footer6-9",
+          "_anchor": "footer6-c",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
           "_params": {}
         },
         {
-          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @color2, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-section-btn": {
+                  "text-align": "right"
+                }
+              }
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
             }
           },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">This policy explains what information we collect when you use LeanMango’s sites, services, mobile applications, products, and content (“Services”). It also has information about how we store, use, transfer, and delete that information. Our aim is not just to comply with privacy law. It’s to earn your trust.\n<p></p><div>\n</div><div>Information We Collect &amp; How We Use It\n</div><div>Medium doesn’t make money from ads. So we don’t collect data in order to advertise to you. The tracking we do at Medium is to make our product work as well as possible. This includes basic product functions like allowing our metered paywall to work and key features like personalizing what posts you see based on what we think you’ll like. So, to give you the best possible experience in using Medium, we collect information from your interactions with our network. Some of this information, you actively tell us (such as your email address, which we use to track your account or communicate with you). Other information, we collect based on actions you take while using Medium, such as what pages you view (including how much of a given page and for how long) and your use of product features (like highlights, follows, and applause). This information includes records of those interactions, your Internet Protocol address, information about your device (such as device or browser type), and referral information (how you got to a particular page).\n</div><div>\n</div><div>We use this information to:\n</div><div>\n</div><div>&nbsp; &nbsp; provide, test, improve, promote and personalize the Services\n</div><div>&nbsp; &nbsp; fight spam and other forms of abuse\n</div><div>&nbsp; &nbsp; generate aggregate, non-identifying information about how people use the Services\n</div><div>\n</div><div>When you create your Medium account, and authenticate with a third-party service (like Twitter, Facebook, Apple or Google) we may collect, store, and periodically update information associated with that third-party account, such as your lists of friends or followers. We will never publish something through one of your third-party accounts without your express permission.\n</div><div>\n</div><div>Information Disclosure\n</div><div>Medium won’t transfer information about you to third parties for the purpose of providing or facilitating third-party advertising to you. We won’t sell information about you to a third-party.\n</div><div>\n</div><div>We may transfer your account information with third parties in some circumstances, including: (1) with your consent; (2) to a service provider or partner who meets our data protection standards; (3) with academic or non-profit researchers, with aggregation, anonymization, or pseudonymization; (4) when we have a good faith belief it is required by law, such as pursuant to a subpoena or other legal process; (5) when we have a good faith belief that doing so will help prevent imminent harm to someone.\n</div><div>\n</div><div>If we are going to share your information in response to legal process, we’ll give you notice so you can challenge it (for example by seeking court intervention), unless we’re prohibited by law or believe doing so may endanger others or cause illegal conduct. We will object to legal requests for information about users of our services that we believe are improper.\n</div><div>\n</div><div>Public Data\n</div><div>Search engines may index your Medium user profile page, public interactions (such as claps or highlights), and post pages, such that people may find these pages when searching against your name on services like Google, DuckDuckGo, or Bing. Users may also share links to your content on social media platforms such as Facebook or Twitter.\n</div><div>\n</div><div>Data Storage\n</div><div>Medium uses third-party vendors and hosting partners, such as Amazon, for hardware, software, networking, storage, and related technology we need to run Medium. We maintain two types of logs: server logs and event logs. By using the Services, you authorize Medium to transfer, store, and use your information in the United States and any other country where we operate.\n</div><div>\n</div><div>Third-Party Embeds\n</div><div>Some of the content that you see displayed on Medium is not hosted by Medium. These “embeds” are hosted by a third-party and embedded in a Medium page, so that it appears to be part of that page. For example: YouTube or Vimeo videos, Imgur or Giphy gifs, SoundCloud audio files, Twitter tweets, GitHub code snippets, or Scribd documents that appear within a Medium post. These files send data to the hosted site just as if you were visiting that site directly (for example, when you load a Medium post page with a YouTube video embedded in it, that video appears because of a pointer to files hosted by YouTube, and in turn YouTube receives data about your activity, such as your IP address and how much of the video you watch).\n</div><div>\n</div><div>Medium doesn’t control what data third parties collect in cases like this, or what they ultimately do with it. So, third-party embeds on Medium are not covered by this Privacy Policy. They are covered by the privacy policy of the third-party service (so, when you watch a YouTube video embedded in a Medium post, the use of data about your interactions with the video would be covered by YouTube’s privacy policy).\n</div><div>\n</div><div>Some embeds may ask you for personal information, such as submitting your email address, through a form linked to from a Medium post. We do our best to keep bad actors off of Medium. However, if you choose to submit your information to a third party this way, we don’t know what they may do with it. As explained above, their actions are not covered by this Privacy Policy. So, please be careful when you see embedded forms on Medium asking for your email address or any other personal information. Make sure you understand who you are submitting your information to and what they say they plan to do with it. We suggest that you do not submit your email address or other personal information to any third-party through an embedded form.\n</div><div>\n</div><div>When posting on Medium, you may not embed a form that allows submission of personal information by users. You must link offsite to a page that allows such submissions by users, and that page’s appearance must be distinct enough from Medium to ensure it does not cause confusion among users over to whom they are submitting personal information. Failure to do so may lead Medium to disable the post or take other action to limit or disable your account.\n</div><div>\n</div><div>Tracking &amp; Cookies\n</div><div>We use browser cookies and similar technologies to recognize you when you return to our Services. We use them in various ways, for example to log you in, remember your preferences (such as default language), evaluate email effectiveness, allow our paywall and meter to function, and personalize content and other services. Without cookies, our metered paywall would not work, so they are necessary to Medium’s basic functionality.\n</div><div>\n</div><div>Medium doesn’t track you across the Internet. We track only your interactions within the Medium network (which encompasses Medium.com and custom domains hosted by Medium).\n</div><div>\n</div><div>Some third-party services that we use to provide the Service, such as Google Analytics, may place their own cookies in your browser. This Privacy Policy covers use of cookies by Medium only and not the use of cookies by third parties.\n</div><div>\n</div><div>Modifying or Deleting Your Personal Information\n</div><div>If you have a Medium account, you can access, modify or export your personal information, or delete your account here.\n</div><div>\n</div><div>To protect information from accidental or malicious destruction, we may maintain residual copies for a brief time period (generally several weeks). But, if you delete your account, your information and content will be unrecoverable after that time. Medium may preserve and maintain copies of your information beyond this time period when required to do so by law.\n</div><div>\n</div><div>Data Security\n</div><div>We use encryption (HTTPS/TLS) to protect data transmitted to and from our site. However, no data transmission over the Internet is 100% secure, so we can’t guarantee security. You use the Service at your own risk, and you’re responsible for taking reasonable measures to secure your account.\n</div><div>\n</div><div>Business Transfers\n</div><div>If we’re involved in a merger, acquisition, bankruptcy, reorganization or sale of assets such that your information would be transferred or become subject to a different privacy policy, we’ll notify you in advance so you can opt out of any such new policy by deleting your account before transfer.\n</div><div>\n</div><div>Email from Medium\n</div><div>Sometimes we’ll send you emails about your account, service changes or new policies. You can’t opt out of this type of “transactional” email (unless you delete your account). But, you can opt out of non-administrative emails such as digests, newsletters, and activity notifications through your account’s Settings page.\n</div><div>\n</div><div>When you interact with an email sent from Medium (such as opening an email or clicking on a particular link in an email), we may receive information about that interaction.\n</div><div>\n</div><div>We won’t email you to ask for your password or other account information. If you receive such an email, please forward it to us at legal@medium.com so we can investigate.\n</div><div>\n</div><div>Changes to this Policy\n</div><div>Medium may periodically update this Policy. We’ll notify you about significant changes to it. The most current version of the policy will always be here and we will archive former versions of the policy here.\n</div><div>\n</div><div>Questions\n</div><div>We welcome feedback about this policy at legal@medium.com.\n</div><div>Data Protection Statement for European Union Users\n</div><div>\n</div><div>Description of Processing Activity\n</div><div>Medium collects and stores personal information about its users to customize their reading experience and enable personalized distribution of content. It shares minimal data with its service providers.\n</div><div>\n</div><div>Purposes of Processing\n</div><div>\n</div><div>&nbsp; &nbsp; Provide, test, promote, and improve the Services\n</div><div>&nbsp; &nbsp; Gather usage statistics of services\n</div><div>&nbsp; &nbsp; Provide customized reading experience\n</div><div>&nbsp; &nbsp; Publish and distribute user-generated content\n</div><div>&nbsp; &nbsp; Provide access to paid content\n</div><div>&nbsp; &nbsp; Pay authors in Partnership Program for certain content\n</div><div>&nbsp; &nbsp; Fight spam, fraud, and other abuse of services\n</div><div>\n</div><div>Legal Bases\n</div><div>In order to provide the Services, Medium collects and stores personal data about its users to fulfill its contractual obligations to users as described in our Terms of Service and to Members as described in our Membership Terms of Service.\n</div><div>\n</div><div>Medium also pursues its legitimate interests by collecting minimal data of logged out users to provide the Services, as outlined above, as well as to ensure that new users trying out the free member preview do not exceed their maximum limit of free articles per month before a paid subscription is required to read further. These legitimate interests are not outweighed by (nor do they violate) our users’ privacy interests because we collect minimal user data for these purposes and we are fully transparent about these activities.\n</div><div>\n</div><div>Where Medium collects and stores personal data about non-users mentioned in user-generated content, it does so under performance of contract obligations to users who use the Services to publish content on web sites hosted by Medium. In such cases, users authoring such user-generated content containing personal data of third parties are responsible for that content. Medium will consider related complaints in compliance with the General Data Protection Regulation’s rights of the data subject, as well as rights of expression and access to information.\n</div><div>\n</div><div>Public Nature of Personal Data\n</div><div>Logged-in users may choose to interact publicly with the Services in the form of clapping for a post, highlighting parts of a post, following other user accounts, sharing links on connected social media accounts, or writing original posts. Where such personal data may reveal special category protected data, it is processed on the basis that it is manifestly made public by the user. Additional information on potential consequences of such processing can be found below. If you do not agree to this public usage, do not create an account or use these features of the Services.\n</div><div>\n</div><div>Search engines may index your Medium user profile page, public interactions (such as claps or highlights), and post pages. Users may also share links to your content on social media platforms such as Facebook or Twitter.\n</div><div>\n</div><div>Categories of Personal Data Collected\n</div><div>Logged out users\n</div><div>\n</div><div>&nbsp; &nbsp; Reading history\n</div><div>&nbsp; &nbsp; IP address\n</div><div>&nbsp; &nbsp; Browser information\n</div><div>&nbsp; &nbsp; DNT status\n</div><div>\n</div><div>Logged in users:\n</div><div>\n</div><div>&nbsp; &nbsp; Username\n</div><div>&nbsp; &nbsp; Display name\n</div><div>&nbsp; &nbsp; Bio\n</div><div>&nbsp; &nbsp; Avatar image\n</div><div>&nbsp; &nbsp; Email address (non-public)\n</div><div>&nbsp; &nbsp; Session activity (security)\n</div><div>&nbsp; &nbsp; Linked social media accounts (optional)\n</div><div>&nbsp; &nbsp; IP address\n</div><div>&nbsp; &nbsp; Browser information\n</div><div>&nbsp; &nbsp; Reading history (on Medium network only)\n</div><div>&nbsp; &nbsp; Network interactions (recommends, follows, etc.)\n</div><div>&nbsp; &nbsp; Posts, responses, or series published by user\n</div><div>\n</div><div>Members:\n</div><div>\n</div><div>&nbsp; &nbsp; Billing information and history\n</div><div>\n</div><div>Partner authors:\n</div><div>\n</div><div>&nbsp; &nbsp; Bank account for payments\n</div><div>&nbsp; &nbsp; Business information, if applicable\n</div><div>\n</div><div>Categories of Recipients\n</div><div>Medium shares minimal personal data with third-party processors in order to provide the Services. These processors offer at least the same level of data protection as that set out in this statement. This includes the following categories of recipients:\n</div><div>\n</div><div>&nbsp; &nbsp; Hosting, Storage, &amp; Other Infrastructure\n</div><div>&nbsp; &nbsp; Security\n</div><div>&nbsp; &nbsp; Analytics\n</div><div>&nbsp; &nbsp; Communication &amp; Support\n</div><div>&nbsp; &nbsp; Payment Processors\n</div><div>\n</div><div>Payment Processors\n</div><div>Medium provides Services in conjunction with several payment processors, including: Stripe, PayPal, Google Play, and Apple Pay, through which users may pay for Medium memberships or receive payment based on participation in our Partner program. Those companies acting as payment processors may collect and store personal data related to your billing information and history in order to provide their services, and may collect and store personal data and business data to prevent fraud and other abuse.\n</div><div>\n</div><div>When you delete your Medium account, Medium deletes your personal data as explained in this policy. However, to delete your payment or billing information, you will need to do so with your payment provider, as Medium only has minimal secure access to those records as needed to provide the Services.\n</div><div>\n</div><div>Use of Algorithms to Personalize User Experience\n</div><div>Medium collects and stores personal data about its users to customize their reading experience by displaying content tailored to the preferences and interests indicated by the users (including through their reading history and network interactions). This does not constitute automated decision-making as that phrase is used in the GDPR because it does not produce any legal effects or similarly significant effects for users. Medium also moderates content for the purposes of fighting and preventing spam, fraud, and other forms of abuse, and may rely on algorithms as part of doing so.\n</div><div>\n</div><div>Potential Consequences of Processing\n</div><div>By creating and using an account on Medium, users may make certain personal data about themselves public and accessible to others on their profile and through network interactions. This may in some cases constitute special category protected data which is considered manifestly made public by the user.\n</div><div>\n</div><div>Due to the public nature of information posted to Medium, it may be possible for third parties to derive identifying personal data from posts, whether by reading, inference, supplemental research, or automated extraction and analysis.\n</div><div>\n</div><div>Users are free to use their real name and information, or a pseudonym of their choosing, for their account. Users may also choose to use the service without posting data or engaging in network interactions. However, if you do not agree with and accept the risks of such usage, you may not use the Services.\n</div><div>\n</div><div>Cross-border Transfers\n</div><div>Medium is hosted in the United States. By using the Services, you authorize Medium to transfer, store, and use your information in the United States and any other country where we operate. Where your data is disclosed to our processors, it is subject by contract to at least the same level of data protection as that set out in this statement.\n</div><div>\n</div><div>Retention\n</div><div>Medium retains personal data associated with your account for the lifetime of your account. If you would like to delete your personal information, you can delete your account at any time. Deleted account profile pages will yield an error 404 “file not found” page, immediately upon initiating deletion, and will become unrecoverable in our system after a period of fourteen days. It may take several additional days for your personal data to be de-indexed from search engines, depending on those search engines’ practices, over which Medium may have limited or no control.\n</div><div>\n</div><div>To delete your payment or billing information, you will need to do so with your payment provider, as Medium only has minimal secure access to those records as needed to provide the Services.\n</div><div>\n</div><div>Rights of Data Subjects\n</div><div>\n</div><div>&nbsp; &nbsp; If you sign up for a Medium account, you may at any time request an export of your personal information from the Settings page.\n</div><div>&nbsp; &nbsp; You may correct information associated with your account from the Settings page, and the Customize Your Interests page to update your interests.\n</div><div>&nbsp; &nbsp; You may withdraw consent by deleting your account at any time through the Settings page, which will erase your personal information completely within 14 days (except to the extent Medium is prevented by law from deleting your information).\n</div><div>&nbsp; &nbsp; You may object at any time to the use of your personal data by contacting privacy@medium.com. If your complaint relates to alleged misuse of your personal data by a third party, it may result in suspension of that post or account in keeping with relevant law, public interest, our contractual obligations, and the rights of expression and access to information of others.\n</div><div>&nbsp; &nbsp; Under EU law you have the right to lodge a complaint regarding the processing of your personal data by Medium with the dedicated Supervisory Authority of your EU member state.\n</div><div>\n</div><div>Subject Access Requests\n</div><div>For security and account ownership verification reasons, we process Subject Access Requests and account deletion requests from the account holder only. We are unable to process requests made by third-party services.</div></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rAWw4PgOjr",
-          "_anchor": "content1-a",
+          "_name": "info2",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#25aab2\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#dbd4b8\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#25aab2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a></div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Create your great IoT product</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rBlaNdnBbO",
+          "_anchor": "info2-d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
